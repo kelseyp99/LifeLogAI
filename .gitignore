@@ -3,3 +3,30 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+# Jupyter and notebook files
+*.ipynb
+# Build and distribution
+build/
+dist/
+*.egg-info/
+# Artifacts and model files
+artifacts/
+Backups/
+# Docker
+*.tar
+# Large files
+*.h5
+*.ckpt
+*.tflite
+*.pb
+*.zip
+*.gz
+# VS Code
+.vscode/
+# OS files
+Thumbs.db
+# Logs
+*.log
+# Prevent pushing files >100MB (GitHub limit)
+.git-lfs
+# Optional: Add .gitattributes for LFS if needed
